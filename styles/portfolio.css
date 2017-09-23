@@ -1,10 +1,22 @@
+Body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: normal;
+  }
+
+
+.container {
+  width: 900px;
+  margin:0 auto;
+}
+
 h1 {
   color: blue;
 
+
 }
 
-.green {
-  color: green;
+
 
 }
 
@@ -23,10 +35,12 @@ h1 {
   background-color: gray;
   width: 200px;
   height: 200px;
+  line-height: 1.4pt;
 
 }
 
 .box {
   color: red;
+  margin: 0 auto;
 
 }
