@@ -2,7 +2,7 @@ Body {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: normal;
-  background-color: #dadada
+  background-color: #00000
   }
 
 
@@ -11,7 +11,7 @@ Body {
   margin: auto;
   height: auto;
   padding-top: 0px;
-  padding-left: 0px;
+  padding-left: 150px;
   }
 
 .h2 {
@@ -25,17 +25,27 @@ Body {
 
   .case {
     width: 900px;
-    height: 500;
+    margin: auto;
     overflow: hidden;
     position: relative;
-    padding-top: 69px;
+    padding-top: 9px;
     padding-left: 0px;
 }
 
-h1 {
-  color: blue;
 
+  .verticalLine {
+    color:#808080;
+    size:3px;
+    border-left: thick solid #808080;
+    width:75%;
+}
 
+#linetop {
+margin-top:auto;
+color:#808080;
+size:3px;
+width:75%;
+z-index: -1;
 }
 
 #line {
@@ -66,23 +76,23 @@ z-index: -1;
 }
 
 a:link    {
-    color: #808080;
+    color: #000000  ;
     text-decoration: none;
 }
 a:visited {
-    color: #808080;
+    color: #000000;
     text-decoration: none;
 }
 a:focus   {
-    color: #808080;
+    color: #000000;
     text-decoration: none;
 }
 a:hover   {
-    color: #00b8ff;
+    color: #9d9d9d;
     text-decoration: none;
 }
 a:active  {
-    color: #808080;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -97,17 +107,29 @@ a:active  {
 
 }
 
+/** Footer Styles **/
+
+
+.footer {
+  background-color: #00000;
+  text-align: center;
+}
+
 .big {
   color: yellow;
 
 }
 
-.div {
-  background-color: gray;
-  width: 200px;
-  height: 200px;
-  line-height: 1.4pt;
+.spacer{
+  background-color: #00000;
+  width: 900px;
+  height: 55px;
+}
 
+.spacersmall{
+  background-color: #00000;
+  width: 900px;
+  height: 25px;
 }
 
 .box {
