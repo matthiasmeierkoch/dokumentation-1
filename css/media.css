@@ -1,0 +1,9 @@
+@media screen and (max-width: 760px) {
+  #right-row {
+    left: -350px;
+  }
+  #container {
+    left: 0px;
+    width: 100%;
+  }
+}
