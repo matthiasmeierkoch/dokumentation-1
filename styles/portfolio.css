@@ -148,3 +148,7 @@ a:active {
   z-index: -1;
   position: relative;
 }
+
+img {
+ width: 900px
+}
