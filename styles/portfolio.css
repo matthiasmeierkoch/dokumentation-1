@@ -152,3 +152,12 @@ a:active {
 img {
  width: 900px
 }
+
+.spacersmallnext {
+  position: center;
+  text-align: right;
+  background-color: #00000;
+  width: 900px;
+  height: 25px;
+}
+
